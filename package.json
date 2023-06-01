@@ -1,0 +1,29 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wagmi/core": "^1.0.8",
+    "@walletconnect/ethereum-provider": "^2.7.7",
+    "@walletconnect/sign-client": "^2.7.7",
+    "@walletconnect/universal-provider": "^2.7.7",
+    "@web3modal/ethereum": "^2.4.1",
+    "@web3modal/html": "^2.4.1",
+    "@web3modal/standalone": "^2.4.1",
+    "ethers": "^6.4.0",
+    "viem": "^0.3.41",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
